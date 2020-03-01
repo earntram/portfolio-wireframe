@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-@media screen only and (min-width: 400px) {
-
-}
-
 body {
   font-family: "Open Sans",
   sans-serif; 
@@ -44,3 +40,14 @@ section {
 section:nth-child(even) {
   background-color: #ddd;
 }
+
+@media screen and (min-width: 400px) {
+
+section {
+  display: flex;
+}
+
+@media screen and (min-width: 800px) {
+  section {
+    display: block;
+  }
